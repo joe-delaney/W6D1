@@ -56,6 +56,36 @@
         <li>5-6 eggs</li>
         <li>1/2 tbsp fresh chopped parsley (optional, for garnish)</li>
       </ul>
+
+      <section id="reviews">
+        <h2>Reviews</h2>
+        <form id="review-form" action="/reviews" method="post">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name">
+      
+          1<input type="radio" name="rating" value="1" checked>
+          2<input type="radio" name="rating" value="2">
+          3<input type="radio" name="rating" value="3">
+          4<input type="radio" name="rating" value="4">
+          5<input type="radio" name="rating" value="5">
+      
+          <select id="expertise" name="expertise">
+            <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
+      
+            <option value="Sometimes Cook">Sometimes Cook</option>
+      
+            <option value="Cook Everyday">Cook Everyday</option>
+      
+            <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+      
+            <option value="Professional Chef">Professional Chef</option>
+          </select>
+      
+          <textarea id="review" name="review" cols="30" rows="10"></textarea>
+      
+          <input type="submit" value="Submit Review">
+        </form>
+      </section>
     </aside>
   </div>
 
@@ -114,36 +144,6 @@
       </ol>
     </section>
   </div>
-
-  <section id="reviews">
-    <h2>Reviews</h2>
-    <form id="review-form" action="/reviews" method="post">
-      <label for="name">Name</label>
-      <input id="name" type="text" name="name">
-
-      1<input type="radio" name="rating" value="1" checked>
-      2<input type="radio" name="rating" value="2">
-      3<input type="radio" name="rating" value="3">
-      4<input type="radio" name="rating" value="4">
-      5<input type="radio" name="rating" value="5">
-
-      <select id="expertise" name="expertise">
-        <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
-
-        <option value="Sometimes Cook">Sometimes Cook</option>
-
-        <option value="Cook Everyday">Cook Everyday</option>
-
-        <option value="Cooking is a Hobby">Cooking is a Hobby</option>
-
-        <option value="Professional Chef">Professional Chef</option>
-      </select>
-
-      <textarea id="review" name="review" cols="30" rows="10"></textarea>
-
-      <input type="submit" value="Submit Review">
-    </form>
-  </section>
 
   <footer>
     <p>Original Recipe by <a href="http://toriavey.com/toris-kitchen/2010/07/summer-2010-travel-blog-shakshuka">Tori
