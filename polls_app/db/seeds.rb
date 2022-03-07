@@ -36,4 +36,12 @@ ActiveRecord::Base.transaction do
     respondent: u2,
     answer_choice: ac4
   )
+  r3 = Response.create!(
+    respondent: u1,
+    answer_choice: ac2
+  )
+  r4 = Response.create!(
+    respondent: u2,
+    answer_choice: ac5
+  )
 end
