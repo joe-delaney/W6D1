@@ -47,7 +47,7 @@ input[type="radio"] {
     -webkit-appearance: none;
     width: 27px;
     height: 27px;
-    background-image: url(../assets/stars.png);
+    background-image: url(./stars.png);
     vertical-align: bottom;
 }
 
@@ -71,4 +71,3 @@ ol li:nth-of-type(2n) {
 h2 + .user_review {
     border-top: 1px solid black;
 }
-
